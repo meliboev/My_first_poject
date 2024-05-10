@@ -1,0 +1,588 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto';
+}
+
+.container {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.btn {
+	background-color: #DC780B;
+	font-size: 16px;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+
+/*Header*/
+
+.header {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	margin-right: 41px;
+}
+
+.menu_list {
+	display: flex;
+	justify-content: start;
+}
+
+.menu_list li {
+	
+	margin-right: 40px;
+	list-style: none;
+	padding-top: 10px;
+}
+
+.menu_list li:last-child {
+	margin-right: 0;
+}
+
+.menu_list li a {
+	text-decoration: none;
+	color: #150C01;
+	font-size: 16px;
+	font-weight: 400;
+	transition: all 0.5s;
+}
+
+.menu_list li a:hover {
+	color: #DC780B;
+}
+
+.btn_header {
+	padding: 14px 30px;
+}
+
+/*Main Content*/
+
+.main {
+	display: flex;
+	margin-top: 100px;
+	position: relative;
+	gap: 30px
+}
+
+.main_text {
+	align-self: center;
+}
+
+.main_text h1 {
+	font-family: 'Philosopher';
+	font-weight: 700;
+	font-size: 49px;
+	color: #150C01;
+	line-height: 118%;
+	width: 555px;
+}
+
+.main_text p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	margin: 42px 0 50px 0;
+}
+
+.btn_main {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 500;
+	background-color: #fff;
+	color:#DC780B;
+	padding: 20px 40px;
+	border: 1.5px solid rgba(235, 184, 130, 0.5);
+	transition: all 0.5s;
+}
+
+.btn_main:first-child {
+	margin-right: 30px;
+}
+
+.btn_main:hover {
+	background-color:#DC780B;
+	color: #fff;
+}
+
+/*Feature Content*/
+
+.features {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.feature_paragraph {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	color: #DC780B;
+	margin-bottom: 7px;
+}
+
+.features h2 {
+	font-family: 'Philosopher';
+	text-align: center;
+	margin-bottom: 45px;
+}
+
+.feature_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.feature_card {
+	width: 300px;
+	text-align: center;
+}
+
+.feature_card h3 {
+	font-family: 'Philosopher';
+	font-size: 25px;
+	font-weight: 700;
+	margin: 30px 0 15px 0;
+}
+
+.feature_card p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*About Us content*/
+
+.about_us {
+	display: flex;
+	gap: 100px;
+	margin-top: 130px;
+	margin-bottom: 130px;
+}
+
+.about_us_content {
+	padding-top: 80px;
+}
+
+.about_us_content div {
+	color:#DC780B;
+	font-weight: 500;
+	font-size: 16px;
+	font-family: 'Roboto';
+}
+
+.about_us_content h2 {
+	margin: 10px 0 30px 0;
+	font-family: 'Philosopher';
+	font-weight: 700;
+	font-size: 31.25px;
+	line-height: 41px;
+}
+
+.about_us_content p {
+	font-weight: 400;
+	font-family: 'Roboto';
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+
+.btn_about_us {
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	padding: 12px 25px;
+}
+
+
+/*Menu Content*/
+
+.menu_content {
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+
+.menu_content div {
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 16px;
+	color:#DC780B;
+}
+
+.menu_content h2 {
+	font-family: 'Philosopher';
+	font-size: 32px;
+	font-weight: 700;
+	margin: 9px 0 25px 0;
+}
+
+.menu_content p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.menu_wrapper {
+	display: flex;
+	gap: 28px;
+	flex-wrap: wrap;
+}
+
+.wrapper_second {
+	margin: 55px 0 86px 0;
+}
+
+.menu_card {
+	width: 360px;
+}
+
+
+.menu_card_text {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+	margin-top: 20px;
+}
+
+.menu_card_text h3, .menu_card_text div  {
+	font-family: 'Philosopher';
+	font-size: 25px;
+	font-weight: 700;
+}
+
+
+.menu_card p {
+	padding: 0 25px;
+	margin: 20px 0;
+}
+
+.btn_plus {
+	width: 36px;
+	height: 34px;
+	background-color: #DC780B;
+	color: #fff;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.icon_star_block {
+	padding-top: 8px;
+}
+
+
+.menu_card_btn {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 25px;
+}
+
+.icon_star_block img {
+	width: 16px;
+	height: 16px;
+}
+
+.btn_menu {
+	display: block;
+	margin: 0 auto;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 16px;
+	padding: 12px 25px;
+	background-color: #fff;
+	color:#DC780B;
+	border: 2px solid rgba(235, 184, 130, 0.5);
+}
+
+
+/*Store Content*/
+
+.bg_store {
+	background-color: #FBF1E7;
+	position: relative;
+}
+
+.store {
+	margin-top: 187px;
+	padding: 114px 0 129px 0;
+}
+
+.store_content {
+	width: 555px;
+}
+
+.store_content div {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 500;
+	color:#DC780B;
+	letter-spacing: 3px;
+}
+
+.store_content h2 {
+	font-family: 'Philosopher';
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 41px;
+	margin: 5px 0 29px 0;
+}
+
+.store_content p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 40px;
+}
+
+.iphone_img {
+	position: absolute;
+	top: -70px;
+	right: 250px;
+}
+
+.store_btn_block {
+	display: flex;
+}
+
+.btn_apple, .btn_google {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 500;
+	border: none;
+	padding: 15px 30px 15px 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.btn_apple {
+	background-color: #000;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 30px;
+}
+
+.btn_google {
+	background-color:#FBF1E7;
+	border: solid 1.5px rgba(27, 30, 16, 0.1);
+	border-radius: 5px;
+}
+
+.btn_google img, .btn_apple img {
+	width: 20px;
+}
+
+.btn_apple img, .btn_google img {
+	margin-right: 8px;
+}
+
+/*Testimonial Content*/
+
+.testimonial {
+	text-align: center;
+	margin-top: 170px;
+}
+
+.testimonial_content div {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	color:#DC780B;
+}
+
+.testimonial_content h2 {
+	font-family: 'Philosopher';
+	font-weight: 700;
+	font-size: 32px;
+	margin: 12px 0 23px 0;
+}
+
+.testimonial_content p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 80px;
+}
+
+.slider_img {
+	margin-bottom: 42px;
+}
+
+.silder_content p {
+	font-family: 'Roboto';
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.slider_star_img {
+	margin: 20px 0 32px 0;
+}
+
+.splide__arrow, .splide__arrow--prev {
+	background: none !important;
+	opacity: none;
+}
+
+/*Contact Content*/
+
+.contact_bg {
+	background-color: rgba(234, 190, 146, 0.3);
+	margin-top: 120px;
+}
+
+.contact {
+ text-align: center;
+ padding: 115px 0;
+}
+
+.contact_content div {
+	font-family: 'Roboto';
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 3px;
+	color:#DC780B;
+}
+
+.contact_content h2 {
+	font-family: 'Philosopher';
+	font-weight: 700;
+	font-size: 32px;
+	margin: 15px 0 46px 0;
+}
+
+.contact form input {
+	display: inline-block;
+	border: none;
+	width: 700px;
+	font-size: 30px;
+	padding: 5px 20px;
+	border-radius: 10px;
+}
+
+.btn_text {
+	font-size: 30px;
+	padding: 5px 20px;
+	border-radius: 10px;
+}
+
+/*Footer Content*/
+
+.bg_footer {
+	background-color: #252525;
+	padding: 137px 0 104px 0;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_card {
+	width: 262px;
+}
+
+.logo_footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.logo_footer img {
+	width: 60px;
+	height: 60px;
+	margin-bottom: 25px;
+}
+
+.logo_footer a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Roboto';
+	font-size: 14px;
+	margin-bottom: 17px;
+}
+
+.logo_footer p {
+	color: #fff;
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+
+.footer h4 {
+	font-family: 'Philosopher';
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 26px;
+}
+
+.footer_card nav ul li {
+	list-style: none;
+	color: #fff;
+	font-family: 'Roboto';
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.footer_card nav ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+/*Медиа Запросы*/
+
+@media (min-width: 1140px) {
+	
+}
+
+@media (min-width: 992px) and (max-width: 1140px) {
+
+	h1 {
+		width: 100%;
+	}
+
+	.main{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	h1 {
+		width: 100%;
+	}
+
+	.about_us {
+		flex-wrap: wrap;
+	}
+}
+
+@media (max-width: 767px) {
+	
+}
+
+@media (max-width: 480px) {
+	
+}
+
+
+
